@@ -1,0 +1,53 @@
+MPU6050wrapper.o: \
+ C:\Users\oscar\AppData\Roaming\MATHWO~1\MATLAB~1\COLLEC~1\RENSSE~1\RASPlib\src\MPU6050wrapper.cpp \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/Wire.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Stream.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Print.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/WString.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Printable.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/utility/twi.h \
+ C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/I2Cdev.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/binary.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/WCharacter.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/HardwareSerial.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Stream.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/USBAPI.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h \
+ C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/MPU6050.h \
+ C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/I2Cdev.h
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/Wire.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Stream.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Print.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/WString.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Printable.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/aIDE/hardware/arduino/avr/LIBRAR~1/Wire/src/utility/twi.h:
+
+C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/I2Cdev.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/binary.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/WCharacter.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/HardwareSerial.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Stream.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/USBAPI.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2021b/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h:
+
+C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/MPU6050.h:
+
+C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/I2Cdev.h:

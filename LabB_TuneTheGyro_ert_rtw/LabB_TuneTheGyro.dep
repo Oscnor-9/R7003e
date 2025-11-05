@@ -1,0 +1,62 @@
+LabB_TuneTheGyro.o: \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro.c \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_extmode.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2023a/simulink/include/sysran_types.h \
+ C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_continuous.h \
+ C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_solver.h \
+ C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_continuous.h \
+ C:/PROGRA~1/MATLAB/R2023a/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/ext_mode_types.h \
+ C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/MPU6050wrapper.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro_types.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/MW_target_hardware_resources.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/include/MW_ArduinoHWInit.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/cores/arduino/binary.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro_private.h \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/multiword_types.h
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_extmode.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2023a/simulink/include/sysran_types.h:
+
+C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_continuous.h:
+
+C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_solver.h:
+
+C:/PROGRA~1/MATLAB/R2023a/simulink/include/rtw_continuous.h:
+
+C:/PROGRA~1/MATLAB/R2023a/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/ext_mode_types.h:
+
+C:/Users/oscar/AppData/Roaming/MATHWO~1/MATLAB~1/COLLEC~1/RENSSE~1/RASPlib/include/MPU6050wrapper.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro_types.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/MW_target_hardware_resources.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/include/MW_ArduinoHWInit.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2023a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/cores/arduino/binary.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2023a/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/LabB_TuneTheGyro_private.h:
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_TuneTheGyro_ert_rtw/multiword_types.h:

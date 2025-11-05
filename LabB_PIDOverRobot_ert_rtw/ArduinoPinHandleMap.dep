@@ -1,0 +1,5 @@
+ArduinoPinHandleMap.o: \
+ C:/ProgramData/MATLAB/SupportPackages/R2023a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp \
+ C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_PIDOverRobot_ert_rtw/rtwtypes.h
+
+C:/Users/oscar/Documents/MATLAB/R7003e/MatlabAndSimulink/LabB_PIDOverRobot_ert_rtw/rtwtypes.h:
