@@ -61,7 +61,7 @@ D = 0;
 z = [0];
 p = p(2:end, 1);
 [num, den] = zp2tf(z,p,k);
-plant = tf(num, den);
+plant = tf(num, den)
 
 %task3.5-----------
 dp = abs([p(p < 0, :); -70]);
