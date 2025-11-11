@@ -45,10 +45,42 @@ B = [0; B_small(1); 0; B_small(2)];
 
 C = [1 0 0 0
     ;0 0 1 0];
+
 D = zeros(2,1);
 
 poles = [-475.0690; -5.6571; -3.6; -43.2];
-L = place(A', C', poles)'
+L = place(A', C', poles)';
+
+T= eye(4);
+T_inv = eye(4);
+A_tilde = T*A*T_inv;
+B_tilde = T_inv*B;
+C_tilde = C * T_inv;
+
+A_yy = A_tilde(1,1);
+A_yx = A_tilde(1,2:4);
+A_xy = A_tilde(2:4,1);
+A_xx = A_tilde(2:4,2:4);
+
+B_y = B_tilde(1);
+B_x = B_tilde(2:4);
+
+C_tilde_y = C_tilde(2,1);
+C_tilde_x = C_tilde(2,2:4);
+
+CC = [A_yx; C_tilde_x];
+
+p_red = [-5.6571; -3.6; -43.2];
+L_red = (place(A_xx', CC', p_red))';
+L_red_acc = L_red(:,1);
+L_red_nacc = L_red(:,2);
+
+
+
+M1 = A_xx - L_red_acc*A_yx - L_red_nacc*C_tilde_x;
+M2 = B_x - L_red_acc*B_y;
+%M3 = A_xy - L_red_acc*A_yy - L_red_nacc*C_tilde_y;
+
 
 
 % 

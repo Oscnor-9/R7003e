@@ -51,32 +51,6 @@ D = zeros(2,1);
 poles = [-475.0690; -5.6571; -3.6; -43.2];
 L = place(A', C', poles)';
 
-
-%reduced order:
-% C_acc =[1 0 0 0];
-% C_nacc = [0 0 1 0];
-% T_inv=[C_acc;
-%      0 1 0 0;
-%      0 0 1 0;
-%      0 0 0 1];
-% T=inv(T_inv);
-% A_tilde = T_inv *A*T
-% B_tilde = T_inv * B;
-% C_tilde_acc = C_acc * T
-% C_tilde_nacc = C_nacc * T
-% 
-% Ayy = A_tilde(1,1);
-% Ayx = A_tilde(1,2:4);
-% Axy = A_tilde(2:4,1)
-% Axx = A_tilde(2:4,2:4)
-% 
-% B_y = B_tilde(1,1);
-% B_x = B_tilde(2:4,1);
-% 
-% C_y = C_tilde_nacc(1,1);
-% C_x = C_tilde_nacc(2:end);
-% CC = [Ayx; C_x];
-
 T= eye(4);
 T_inv = eye(4);
 A_tilde = T*A*T_inv;
@@ -88,8 +62,8 @@ A_yx = A_tilde(1,2:4);
 A_xy = A_tilde(2:4,1);
 A_xx = A_tilde(2:4,2:4);
 
-B_y = B_tilde(1);
-B_x = B_tilde(2:4);
+B_y = B_tilde(1)
+B_x = B_tilde(2:4)
 
 C_tilde_y = C_tilde(2,1);
 C_tilde_x = C_tilde(2,2:4);
@@ -97,7 +71,22 @@ C_tilde_x = C_tilde(2,2:4);
 CC = [A_yx; C_tilde_x];
 
 p_red = [-5.6571; -3.6; -43.2];
-L_red = (place(A_xx', CC', p_red))'
+L_red = (place(A_xx', CC', p_red))';
+L_red_acc = L_red(:,1);
+L_red_nacc = L_red(:,2);
+
+
+
+M1 = A_xx - L_red_acc*A_yx - L_red_nacc*C_tilde_x;
+M2 = B_x - L_red_acc*B_y;
+M3 = A_xy - L_red_acc*A_yy - L_red_nacc*C_tilde_y;
+M4 = L_red_nacc;
+M5 = L_red_acc;
+M6 = T_inv(:,1);
+M7 = T_inv(:,2:4);
+
+
+
 % 
 % M1 = 1.0e+03 * [
 %    -0.4358   -0.0072    0.0091
